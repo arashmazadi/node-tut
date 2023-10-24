@@ -1,0 +1,6 @@
+const name = require('./4-names')
+const sayhi = require('./5-utils')
+require('./6-alternative')
+sayhi('adel')
+sayhi(name.john)
+sayhi(name.arash)
